@@ -80,7 +80,7 @@ verifyBtn.addEventListener("click", () => {
       p.innerText = "You are a human. Congratulations!";
     } else {
       p.innerText =
-        "We can't verify you as a human. You selected the non-identical tiles.";
+        "We can't verify you as a human. You selected the non-identical tiles";
     }
 
     container.append(p);
